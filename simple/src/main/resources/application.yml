@@ -1,0 +1,15 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: simple
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka/

@@ -1,4 +1,5 @@
 rootProject.name = 'microservice-project'
 
 include 'registry'
+include 'simple'
 
